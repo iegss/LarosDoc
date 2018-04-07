@@ -27,15 +27,15 @@ php 扩展库 Zend Guard Loader v3.3
 
 ### Windows 开发平台推荐安装步骤：
 
-1、下载phpStudy并安装, [http://www.phpstudy.net/phpstudy/phpStudy20161103.zip](http://www.phpstudy.net/phpstudy/phpStudy20161103.zip)
+* 1、下载phpStudy并安装, [http://www.phpstudy.net/phpstudy/phpStudy20161103.zip](http://www.phpstudy.net/phpstudy/phpStudy20161103.zip)
 
-2、切换版本（php-5.6.27-nts + Apache/nginx）, 如是nginx需要配置重写。
+* 2、切换版本（php-5.6.27-nts + Apache/nginx）, 如是nginx需要配置重写。
 
-3、复制 doc/ZendLoader/php5.6/ZendLoader.dll 到phpStudy安装对应的php扩展目录下。
+* 3、复制 doc/ZendLoader/php5.6/ZendLoader.dll 到phpStudy安装对应的php扩展目录下。
 
 如：D:\phpStudy\php\php-5.6.27-nts\ext
 
-4、配置php.ini。
+* 4、配置php.ini。
 
 4.1 其它选项菜单-》打开配置文件-》php.ini 文件
 
@@ -51,7 +51,7 @@ php 扩展库 Zend Guard Loader v3.3
 
 `zend_loader.license_path=""`
 
-5、重启环境并检查是否安装成功。
+* 5、重启环境并检查是否安装成功。
 
 --------- nginx 环境重写配置 ---------
 
