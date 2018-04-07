@@ -60,6 +60,10 @@ php 扩展库 Zend Guard Loader v3.3
 1. Nginx 重写配置
 
 
+location / {
+    try_files $uri $uri/ /index.php?$query_string;
+}
+
 
 
 
