@@ -62,7 +62,7 @@ zend_loader.license_path=""
 
 重写去除URL中 index.php 入口的输入。
 
-1. Nginx 环境重写配置
+1、Nginx 环境重写配置
 
 ```
 location / {
@@ -71,7 +71,7 @@ location / {
 
 ```
 
-2. Apache 环境.htaccess重写配置
+2、Apache 环境.htaccess重写配置
 
 
 ```
