@@ -55,9 +55,11 @@ php 扩展库 Zend Guard Loader v3.3
 
 ## 重写配置
 
-重写去除URL index.php 入口的输入。
+重写去除URL中 index.php 入口的输入。
 
-### Nginx
+1. Nginx 重写配置
+
+
 
 
 
