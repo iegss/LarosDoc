@@ -49,7 +49,8 @@ php 扩展库 Zend Guard Loader v3.3
 
 ### Linux 开发平台推荐安装步骤 （CentOS）
 
-1. 通过BT环境一键安装
+推荐安装宝塔Linux面板
+  https://www.bt.cn/
 
 
 
