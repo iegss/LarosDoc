@@ -3,8 +3,8 @@
 ## 概述
 
 * [LarOS 框架概述](README.md)
-* [LarOS 体系架构](chapter1.md)
 * [LarOS 功能特性](laros-gong-neng-te-xing.md)
+* [LarOS 体系架构](chapter1.md)
 
 ## 快速入门
 
