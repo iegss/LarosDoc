@@ -46,7 +46,10 @@ php 扩展库 Zend Guard Loader v3.3
 
 * 5、重启环境并检查是否安装成功。
 
-### Linux 开发平台推荐安装步骤
+### Linux 开发平台推荐安装步骤 （CentOS）
+
+
+
 
 
 
