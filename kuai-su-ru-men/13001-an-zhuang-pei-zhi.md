@@ -53,9 +53,6 @@ php 扩展库 Zend Guard Loader v3.3
   https://www.bt.cn/
 
 
-
-
-
 ## 重写配置
 
 重写去除URL index.php 入口的输入。
