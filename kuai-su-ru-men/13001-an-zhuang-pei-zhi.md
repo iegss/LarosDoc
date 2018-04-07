@@ -39,7 +39,6 @@ php 扩展库 Zend Guard Loader v3.3
      4.1 其它选项菜单-》打开配置文件-》php.ini 文件
      4.2 php.ini 在最后加入：
        
-
 ```
 zend_extension="ZendLoader.dll"
 zend_loader.enable=1
