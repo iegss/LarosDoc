@@ -1,4 +1,4 @@
-# 安装主要步骤：
+``# 安装主要步骤：
 
 #### 1、下载代码。
 
@@ -38,11 +38,17 @@ php 扩展库 Zend Guard Loader v3.3
 * 4、配置php.ini。
      4.1 其它选项菜单-》打开配置文件-》php.ini 文件
      4.2 php.ini 在最后加入：
-       zend_extension="ZendLoader.dll"
-       zend_loader.enable=1
-       zend_loader.disable_licensing=0
-       zend_loader.obfuscation_level_support=3
-       zend_loader.license_path=""
+       
+
+```
+zend_extension="ZendLoader.dll"
+zend_loader.enable=1
+zend_loader.disable_licensing=0
+zend_loader.obfuscation_level_support=3
+zend_loader.license_path=""
+```
+
+
 
 * 5、重启环境并检查是否安装成功。
 
@@ -57,12 +63,27 @@ php 扩展库 Zend Guard Loader v3.3
 
 重写去除URL中 index.php 入口的输入。
 
-1. Nginx 重写配置
+1. Nginx 环境重写配置
 
-
+```
 location / {
     try_files $uri $uri/ /index.php?$query_string;
 }
+
+```
+
+2. Apache 环境.htaccess重写配置
+
+
+```
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+```
+
 
 
 
