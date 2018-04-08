@@ -16,7 +16,6 @@
         'service_provider' => \Modules\Demo\BootServiceProvider::class,
     ];
     ```
-
 ##### BootServiceProvider.php
 
   ```
