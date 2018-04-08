@@ -42,9 +42,9 @@
 │ 
 ├─public                        外部资源目录
 │  ├─statics                    CSS,JS,Images资源目录
-│  ├─uploads                       文件上传目录
-│  ├─.htaccess                     Apache环境重写文件
-│  └─index.php                     系统统一入口文件
+│  ├─uploads                    文件上传目录
+│  ├─.htaccess                  Apache环境重写文件
+│  └─index.php                  系统统一入口文件
 │
 ├─storage                       存储目录
 │  ├─app                        模块应用存储目录
