@@ -5,8 +5,8 @@
 │  └─app.php                        启动文件
 │
 ├─config                            配置目录
-│  ├─captcha.php                     图形验证码配置文件
-│  └─session.php                     Session 配置文件
+│  ├─captcha.php                    图形验证码配置文件
+│  └─session.php                    Session 配置文件
 │
 ├─core                                 larOS框架核心目录
 │  └─iegss                        
