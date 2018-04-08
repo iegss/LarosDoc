@@ -49,9 +49,9 @@
 ├─storage                       存储目录
 │  ├─app                        模块应用存储目录
 │  ├─framework                  底层框架运行缓存目录
-│  └─logs                        日志目录
+│  └─logs                       日志目录
 │
-└─vendor                            第三方类库目录（Composer）
+└─vendor                        第三方类库目录（Composer）
 ```
 
 
