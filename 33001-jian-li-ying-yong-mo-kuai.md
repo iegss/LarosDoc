@@ -21,6 +21,8 @@
    ##### BootServiceProvider.php
 
    ```php
+   <?php
+
     namespace Modules\Demo;
 
     use Iegss\Larbase\BootServiceProvider as MServiceProvider;
@@ -38,7 +40,14 @@
    ```
 
    ##### routes.php
-   
+    
+    ```php
+   <?php
+    
+   $this->app->group(['namespace' => 'Modules\Demo\Controllers', 'prefix' => 'demo'],  function ($app) {
+    
+   });
+    ```
 
 
 
