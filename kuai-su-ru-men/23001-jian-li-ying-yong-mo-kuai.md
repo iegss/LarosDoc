@@ -1,6 +1,9 @@
 # 目录结构
 
 
+
+```
+
 ├─bootstrap
 │  └─app.php    					启动文件
 │
@@ -52,3 +55,6 @@
 │  └─logs						日志目录
 │
 └─vendor                            第三方类库目录（Composer）
+```
+
+
