@@ -9,7 +9,20 @@
       BootServiceProvider.php
 
       ```
-      
+      namespace Modules\Demo;
+
+use Iegss\Larbase\BootServiceProvider as MServiceProvider;
+
+class BootServiceProvider extends MServiceProvider {
+
+    public function register(){
+        $this->initRegister();
+    }
+
+    public function boot(){
+
+    }
+}
       ```
 
 ```
