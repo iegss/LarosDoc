@@ -3,7 +3,7 @@
 ## 手动建立应用模块
 
 1. 建立应用模块主文件夹。如：Demo
-2. 建立应用模块必要的子文件夹。Config、Controllers、Dbtables、Model、Views
+2. 建立应用模块子文件夹。Config、Controllers、Dbtables、Model、Views
 3. 建立应用模块必要的文件。
 
    ##### Config/config.php
@@ -38,6 +38,7 @@
    ```
 
    ##### routes.php
+   
 
 
 
