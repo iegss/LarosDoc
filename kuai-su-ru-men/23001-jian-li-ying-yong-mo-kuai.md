@@ -27,17 +27,17 @@
 │           └─BootServiceProvider.php  框架服务处理文件
 │                          
 ├─modules                        模块目录
-│  ├─Api                        API接口工具模块目录
+│  ├─Api                         API接口工具模块目录
 │  ├─Base                        框架基础模块目录
-│  ├─Content                    文章内容模块目录
+│  ├─Content                     文章内容模块目录
 │  ├─Laradmin                    后台管理模块目录
-│  │ ├─Config                     模块配置目录
-│  │ ├─Controllers              控制层目录
-│  │ ├─Middleware               中间层目录
+│  │ ├─Config                    模块配置目录
+│  │ ├─Controllers               控制层目录
+│  │ ├─Middleware                中间层目录
 │  │ ├─Model                     数据模型目录
 │  │ ├─Views                     视图目录
-│  │ ├─BootServiceProvider.php  模块服务处理文件
-│  │ └─routes.php                  模块路由文件
+│  │ ├─BootServiceProvider.php   模块服务处理文件
+│  │ └─routes.php                模块路由文件
 │  │ 
 │ 
 ├─public                        外部资源目录
