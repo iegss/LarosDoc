@@ -6,6 +6,8 @@
 2. 建立应用模块必要的子文件夹。Config、Controllers、Dbtables、Model、Views
 3. 建立应用模块必要的文件。
 ##### Config/config.php
+
+```
 <?php
 
 return [
@@ -13,6 +15,9 @@ return [
     'colse' => false,
     'service_provider' => \Modules\Demo\BootServiceProvider::class,
 ];
+```
+
+
 
 ##### BootServiceProvider.php
 
