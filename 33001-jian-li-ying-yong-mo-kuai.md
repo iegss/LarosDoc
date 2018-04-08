@@ -17,8 +17,6 @@ return [
 ];
 ```
 
-
-
 ##### BootServiceProvider.php
 
   ```
