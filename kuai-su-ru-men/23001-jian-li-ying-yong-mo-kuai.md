@@ -15,7 +15,7 @@
 │  └─iegss                        
 │     └─larbase                   
 │        └─src                  		
-│         	├─Captcha              		图形验证码目录
+│           ├─Captcha              		图形验证码目录
 │           ├─Console              		命令行处理目录
 │           ├─Datatables            	数据列表管理区目录
 │           ├─Db              			数据库表目录
