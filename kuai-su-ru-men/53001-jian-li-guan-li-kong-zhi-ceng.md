@@ -1,6 +1,6 @@
 # 建立管理控制层
 
-#### 在Demo/Controllers/Admin下建立数据表文件 ArticleController.php
+#### 在Demo/Controllers/Admin下建立文件 ArticleController.php
 
 ```
 
