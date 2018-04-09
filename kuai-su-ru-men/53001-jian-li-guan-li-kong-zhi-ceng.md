@@ -2,7 +2,7 @@
 
 #### 在 Demo/Controllers/Admin 下建立管理控制层文件 ArticleController.php
 
-```
+```php
 
 <?php
 
