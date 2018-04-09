@@ -16,6 +16,14 @@
 * [6、配置管理菜单及路由](kuai-su-ru-men/33001-pei-zhi-guan-li-cai-dan-ji-quan-xian.md)
 * [7、后台维护生效](kuai-su-ru-men/73001-hou-tai-wei-hu-sheng-xiao.md)
 
+## 深入开发
+
+* 1、LarOS 基础
+* 2、Routes && Controllers
+* 3、Model 详解
+* 4、DBTable 详细配置说明
+* 5、常见复杂数据结构处理方法
+
 ## API 接口
 
 * [1、接口签名](api-jie-kou/13001-jie-kou-qian-ming.md)
