@@ -1,4 +1,4 @@
-# 创建表设置字段属性,并建立Model文件
+# 创建表及Model类
 
 #### 在Demo/Dbtables下建立数据表文件 article.php，并设置好各字段属性如：
 
