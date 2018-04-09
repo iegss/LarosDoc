@@ -1,6 +1,6 @@
 # 安装主要步骤：
 
-#### 1、下载代码。
+#### 1、下载代码（未来开放）。
 
 git clone [https://git.oschina.net/iegss/laros.git](https://git.oschina.net/iegss/laros.git)
 
