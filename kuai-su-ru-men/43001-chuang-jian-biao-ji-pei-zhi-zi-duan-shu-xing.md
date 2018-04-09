@@ -171,5 +171,19 @@ return array(
 #### 在Demo/Model 建立article表的Model文件 Article.php
 
 
+```
+<?php
+
+namespace Modules\Demo\Model;
+
+use Iegss\Larbase\Model\BaseModel;
+
+class Article extends BaseModel
+{
+
+}
+```
+
+
 
 
