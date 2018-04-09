@@ -1,6 +1,6 @@
 # 建立管理控制层
 
-#### 在Demo/Dbtables下建立数据表文件 article.php
+#### 在Demo/Controllers/Admin下建立数据表文件 article.php
 
 ```
 
