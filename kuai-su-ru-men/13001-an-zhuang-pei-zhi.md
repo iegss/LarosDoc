@@ -1,8 +1,8 @@
 # 安装主要步骤：
 
-#### 1、下载代码（未来开放）。
+#### 1、下载代码（暂未开放）。
 
-git clone [https://git.oschina.net/iegss/laros.git](https://git.oschina.net/iegss/laros.git)
+git clone [https://github.com/iegss/LarOS.git](https://github.com/iegss/LarOS.git)
 
 #### 2、下载更新第三方库。
 
