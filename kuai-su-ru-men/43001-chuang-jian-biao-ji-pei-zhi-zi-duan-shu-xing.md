@@ -168,4 +168,8 @@ return array(
 
 ```
 
+#### 在Demo/Model 建立article表的Model文件 ，并设置好各字段属性如：
+
+
+
 
