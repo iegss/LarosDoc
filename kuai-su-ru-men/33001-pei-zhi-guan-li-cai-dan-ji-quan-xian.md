@@ -62,7 +62,7 @@ return [
 ];
 ```
 
-#### 配置管理菜单文件 Demo/routes.php, 如下：
+#### 配置路由文件 Demo/routes.php, 如下：
 
 
 
