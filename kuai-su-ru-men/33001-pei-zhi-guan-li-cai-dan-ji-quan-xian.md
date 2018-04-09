@@ -66,7 +66,22 @@ return [
 
 
 ```php
+<?php
 
+//这里写前端访问的路由
+$this->app->group(['namespace' => 'Modules\Demo\Controllers', 'prefix' => 'demo'],  function ($app) {
+
+});
+
+//这里写后端管理路由
+$this->app->group([
+    'middleware' => ['admin.login','admin.permission'],
+    'namespace' => 'Modules\demo\Controllers\Admin',
+    'prefix' => 'demo/admin'],  function ($app) {
+
+    $app->registerAdminRoutes('article');
+
+});
 ```
 
 
