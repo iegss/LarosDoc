@@ -168,7 +168,7 @@ return array(
 
 ```
 
-#### 在Demo/Model 建立article表的Model文件 Article.php
+#### 在 Demo/Model 建立article表的Model文件 Article.php
 
 
 ```
