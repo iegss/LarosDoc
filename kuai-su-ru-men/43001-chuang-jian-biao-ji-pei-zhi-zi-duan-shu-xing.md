@@ -1,6 +1,7 @@
 # 创建表及配置字段属性
 
-#### 在Demo/Dbtables下建立数据表文件，并设置好各字段属性如：
+#### 在Demo/Dbtables下建立数据表文件 article.php，并设置好各字段属性如：
+
 
 ```php
 <?php
