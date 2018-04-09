@@ -12,6 +12,7 @@
 * [2、目录结构](kuai-su-ru-men/23001-jian-li-ying-yong-mo-kuai.md)
 * [3、建立应用模块](kuai-su-ru-men/33001-jian-li-ying-yong-mo-kuai.md)
 * [4、创建表及Model类](kuai-su-ru-men/43001-chuang-jian-biao-ji-pei-zhi-zi-duan-shu-xing.md)
+* [5、建立管理控制层](kuai-su-ru-men/53001-jian-li-guan-li-kong-zhi-ceng.md)
 * [5、配置管理菜单及权限](kuai-su-ru-men/33001-pei-zhi-guan-li-cai-dan-ji-quan-xian.md)
 
 ## API 接口
