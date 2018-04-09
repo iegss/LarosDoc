@@ -14,6 +14,7 @@
 * [4、创建表及Model类](kuai-su-ru-men/43001-chuang-jian-biao-ji-pei-zhi-zi-duan-shu-xing.md)
 * [5、建立管理控制层](kuai-su-ru-men/53001-jian-li-guan-li-kong-zhi-ceng.md)
 * [6、配置管理菜单及路由](kuai-su-ru-men/33001-pei-zhi-guan-li-cai-dan-ji-quan-xian.md)
+* [7、后台维护生效](kuai-su-ru-men/73001-hou-tai-wei-hu-sheng-xiao.md)
 
 ## API 接口
 
