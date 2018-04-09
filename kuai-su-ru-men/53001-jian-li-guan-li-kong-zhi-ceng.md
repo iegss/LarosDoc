@@ -2,7 +2,6 @@
 
 #### 在Demo/Dbtables下建立数据表文件 article.php
 
-
 ```
 
 <?php
