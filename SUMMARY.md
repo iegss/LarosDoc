@@ -4,7 +4,7 @@
 
 ## 概述
 
-* [框架概述](gai-shu/readme.md)
+* [框架概述](gai-shu/gai-shu.md)
 * [功能特性](gai-shu/laros-gong-neng-te-xing.md)
 * [体系架构](gai-shu/ti-xi-jia-gou.md)
 
