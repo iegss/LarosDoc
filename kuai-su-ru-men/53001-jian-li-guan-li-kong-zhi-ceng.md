@@ -1,9 +1,10 @@
-# 建立管理控制层
+# 5、建立管理控制层
 
-#### 在 Demo/Controllers/Admin 下建立管理控制层文件 ArticleController.php
+**注：**你也可以通过[框架命令行助手](../shen-ceng-fa-jue/43001-kuang-jia-ming-ling-xing-zhu-shou.md)自动建立。
+
+## 在 Demo/Controllers/Admin 下建立管理控制层文件 ArticleController.php
 
 ```php
-
 <?php
 
 namespace Modules\Demo\Controllers\Admin;

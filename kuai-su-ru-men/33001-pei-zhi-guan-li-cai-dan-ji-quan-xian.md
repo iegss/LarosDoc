@@ -1,6 +1,6 @@
-#配置管理菜单及路由
+# 6、配置管理菜单及路由
 
-#### 配置管理菜单文件 Demo/Config/config.php, 如下：
+## 配置管理菜单文件 Demo/Config/config.php, 如下：
 
 ```php
 <?php
@@ -62,8 +62,7 @@ return [
 ];
 ```
 
-#### 配置路由文件 Demo/routes.php, 如下：
-
+## 配置路由文件 Demo/routes.php, 如下：
 
 ```php
 <?php
@@ -76,15 +75,11 @@ $this->app->group(['namespace' => 'Modules\Demo\Controllers', 'prefix' => 'demo'
 //这里写后端管理路由
 $this->app->group([
     'middleware' => ['admin.login','admin.permission'],
-    'namespace' => 'Modules\demo\Controllers\Admin',
+    'namespace' => 'Modules\Demo\Controllers\Admin',
     'prefix' => 'demo/admin'],  function ($app) {
 
     $app->registerAdminRoutes('article');
 
 });
 ```
-
-
-
-
 

@@ -1,7 +1,8 @@
-# 创建表及Model类
+# 4、创建表及Model类
 
-#### 在 Demo/Dbtables 下建立数据表文件 article.php，并设置好各字段属性如：
+**注：**你也可以通过[框架命令行助手](../shen-ceng-fa-jue/43001-kuang-jia-ming-ling-xing-zhu-shou.md)自动建立。
 
+## 在 Demo/Dbtables 下建立数据表文件 article.php，并设置好各字段属性如：
 
 ```php
 <?php
@@ -165,13 +166,11 @@ return array(
     'engine'    => 'InnoDB',
     'comment'   => _lang('文章表'),
 );
-
 ```
 
-#### 在 Demo/Model 建立article表的Model文件 Article.php
+## 在 Demo/Model 建立article表的Model文件 Article.php
 
-
-```
+```text
 <?php
 
 namespace Modules\Demo\Model;
@@ -183,7 +182,4 @@ class Article extends BaseModel
 
 }
 ```
-
-
-
 

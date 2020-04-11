@@ -1,4 +1,4 @@
-# 建立应用模块
+# 3、建立应用模块
 
 ## 手动建立应用模块
 
@@ -6,9 +6,11 @@
 2. 建立应用模块子文件夹。Config、Controllers、Dbtables、Model、Views
 3. 建立应用模块必要的文件。
 
-   ##### Config/config.php
+**注：**你也可以通过[框架命令行助手](../shen-ceng-fa-jue/43001-kuang-jia-ming-ling-xing-zhu-shou.md)自动建立。
 
-   ```php
+### Config/config.php
+
+```php
     <?php
 
     return [
@@ -16,11 +18,11 @@
         'colse' => false,
         'service_provider' => \Modules\Demo\BootServiceProvider::class,
     ];
-   ```
+```
 
-   ##### BootServiceProvider.php
+### BootServiceProvider.php
 
-   ```php
+```php
    <?php
 
     namespace Modules\Demo;
@@ -37,17 +39,15 @@
 
         }
     }
-   ```
+```
 
-   ##### routes.php
-    
-    ```php
+### routes.php
+
+```php
    <?php
-    
+
    $this->app->group(['namespace' => 'Modules\Demo\Controllers', 'prefix' => 'demo'],  function ($app) {
-    
+
    });
-    ```
-
-
+```
 

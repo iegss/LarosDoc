@@ -1,6 +1,6 @@
-# 目录结构
+# 2、目录结构
 
-```
+```text
 ├─bootstrap
 │  └─app.php                        启动文件
 │
@@ -30,6 +30,7 @@
 │  ├─Api                         API接口工具模块目录
 │  ├─Base                        框架基础模块目录
 │  ├─Content                     文章内容模块目录
+│  ├─Demo                        开发Demo
 │  ├─Laradmin                    后台管理模块目录
 │  │ ├─Config                    模块配置目录
 │  │ ├─Controllers               控制层目录
@@ -53,6 +54,4 @@
 │
 └─vendor                        第三方类库目录（Composer）
 ```
-
-
 
